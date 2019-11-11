@@ -26,13 +26,6 @@ body{
   position: fixed;
 }
 
-.wrapper .sidebar h2{
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
 .wrapper .sidebar ul li{
   padding: 15px;
   border-bottom: 1px solid #bdb8d7;
@@ -84,7 +77,7 @@ body{
 
 .wrapper .main_content .info{
   margin: 20px;
-  color: #717171;
+  color: #77022e;
   line-height: 25px;
 }
 
@@ -92,4 +85,28 @@ body{
   margin-bottom: 20px;
   font-size: 18px;
   color: #ffffff
+}
+
+.info{
+width: 90%;
+padding: 10px;
+background:#efb700;
+text-align: center;
+margin: 100px auto;
+display: flex;
+justify-content: center;
+}
+
+.kotak1{
+  width: 250px;
+  height: 300px;
+  background: #efb700;
+  float: left;
+  margin: 0px 10px;
+  transition: 1s;
+}
+
+.kotak1:hover{
+  transform:scale(1.1); 
+  color: #77022e;
 }
